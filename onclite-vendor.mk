@@ -134,7 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
     vendor/xiaomi/onclite/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
     vendor/xiaomi/onclite/proprietary/vendor/bin/mm-pp-dpps:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-dpps \
-    vendor/xiaomi/onclite/proprietary/vendor/bin/mm-qcamera-app:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-app \
     vendor/xiaomi/onclite/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
     vendor/xiaomi/onclite/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/xiaomi/onclite/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
@@ -166,12 +165,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
     vendor/xiaomi/onclite/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/xiaomi/onclite/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
-    vendor/xiaomi/onclite/proprietary/vendor/etc/camera/GpuKernelRepo.pb:$(TARGET_COPY_OUT_VENDOR)/etc/camera/GpuKernelRepo.pb \
-    vendor/xiaomi/onclite/proprietary/vendor/etc/camera/beauty_ui9_intelligent_params.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/beauty_ui9_intelligent_params.config \
     vendor/xiaomi/onclite/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
-    vendor/xiaomi/onclite/proprietary/vendor/etc/camera/lf_facerank_model.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/lf_facerank_model.bin \
-    vendor/xiaomi/onclite/proprietary/vendor/etc/camera/model_back.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_back.dlc \
-    vendor/xiaomi/onclite/proprietary/vendor/etc/camera/model_front.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_front.dlc \
     vendor/xiaomi/onclite/proprietary/vendor/etc/camera/onc_imx486_sunny_India_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/onc_imx486_sunny_India_ii_chromatix.xml \
     vendor/xiaomi/onclite/proprietary/vendor/etc/camera/onc_imx486_sunny_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/onc_imx486_sunny_ii_chromatix.xml \
     vendor/xiaomi/onclite/proprietary/vendor/etc/camera/onc_ov02a10_ofilm_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/onc_ov02a10_ofilm_i_chromatix.xml \
@@ -180,16 +174,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/etc/camera/onc_ov02a10_sunny_india_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/onc_ov02a10_sunny_india_ii_chromatix.xml \
     vendor/xiaomi/onclite/proprietary/vendor/etc/camera/onc_ov12a10_ofilm_India_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/onc_ov12a10_ofilm_India_i_chromatix.xml \
     vendor/xiaomi/onclite/proprietary/vendor/etc/camera/onc_ov12a10_ofilm_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/onc_ov12a10_ofilm_i_chromatix.xml \
-    vendor/xiaomi/onclite/proprietary/vendor/etc/camera/onc_ov24a1q_ofilm_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/onc_ov24a1q_ofilm_i_chromatix.xml \
-    vendor/xiaomi/onclite/proprietary/vendor/etc/camera/onc_s5k2l5sx_sunny_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/onc_s5k2l5sx_sunny_ii_chromatix.xml \
-    vendor/xiaomi/onclite/proprietary/vendor/etc/camera/onc_s5k3p8sp_ofilm_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/onc_s5k3p8sp_ofilm_i_chromatix.xml \
     vendor/xiaomi/onclite/proprietary/vendor/etc/camera/onc_s5k4h7_ofilm_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/onc_s5k4h7_ofilm_i_chromatix.xml \
     vendor/xiaomi/onclite/proprietary/vendor/etc/camera/onc_s5k4h7_ofilm_india_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/onc_s5k4h7_ofilm_india_i_chromatix.xml \
     vendor/xiaomi/onclite/proprietary/vendor/etc/camera/onc_s5k4h7_sunny_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/onc_s5k4h7_sunny_ii_chromatix.xml \
     vendor/xiaomi/onclite/proprietary/vendor/etc/camera/onc_s5k4h7_sunny_india_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/onc_s5k4h7_sunny_india_ii_chromatix.xml \
     vendor/xiaomi/onclite/proprietary/vendor/etc/camera/onc_s5kgd1sp_ofilm_india_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/onc_s5kgd1sp_ofilm_india_ii_chromatix.xml \
     vendor/xiaomi/onclite/proprietary/vendor/etc/camera/onc_s5kgd1sp_sunny_india_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/onc_s5kgd1sp_sunny_india_i_chromatix.xml \
-    vendor/xiaomi/onclite/proprietary/vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin \
     vendor/xiaomi/onclite/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/xiaomi/onclite/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
     vendor/xiaomi/onclite/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -363,21 +353,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libaudioconfigstore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioconfigstore.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioparsers.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase64.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_qti.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++_shared.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libcamera_scene.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_scene.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnn.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2vop.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsp_default_listener.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_csidtg_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_common.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_cpp_preview.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_postproc.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_csidtg_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_preview.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_csidtg_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_zsl_preview.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_India_ii_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_India_ii_bokeh_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_India_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_India_ii_common.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_India_ii_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_India_ii_cpp_hfr_120.so \
@@ -393,9 +375,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_India_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_India_ii_cpp_video.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_India_ii_cpp_video_720p.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_India_ii_cpp_video_720p.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_India_ii_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_India_ii_cpp_video_weixin.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_India_ii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_India_ii_default_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_India_ii_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_India_ii_default_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_India_ii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_India_ii_default_video_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_India_ii_hdr_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_India_ii_hdr_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_India_ii_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_India_ii_hfr_120.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_India_ii_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_India_ii_hfr_120_3a.so \
@@ -403,7 +383,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_India_ii_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_India_ii_hfr_60_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_India_ii_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_India_ii_hfr_90.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_India_ii_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_India_ii_hfr_90_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_India_ii_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_India_ii_liveshot.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_India_ii_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_India_ii_pano_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_India_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_India_ii_postproc.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_India_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_India_ii_preview.so \
@@ -431,9 +410,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_ii_cpp_video.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_ii_cpp_video_720p.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_ii_cpp_video_720p.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_ii_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_ii_cpp_video_weixin.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_ii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_ii_default_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_ii_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_ii_default_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_ii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_ii_default_video_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_ii_hdr_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_ii_hdr_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_ii_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_ii_hfr_120.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_ii_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_ii_hfr_120_3a.so \
@@ -441,7 +418,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_ii_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_ii_hfr_60_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_ii_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_ii_hfr_90.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_ii_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_ii_hfr_90_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_ii_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_ii_liveshot.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_ii_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_ii_pano_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_ii_postproc.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_imx486_sunny_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_imx486_sunny_ii_preview.so \
@@ -558,13 +534,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov02a10_sunny_india_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov02a10_sunny_india_ii_snapshot.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov02a10_sunny_india_ii_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov02a10_sunny_india_ii_zsl_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov02a10_sunny_india_ii_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov02a10_sunny_india_ii_zsl_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_4k_preview_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_4k_video_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_bokeh_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_common.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_cpp_hfr_120.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_cpp_hfr_60.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_cpp_hfr_90.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_cpp_liveshot.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_cpp_preview.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_cpp_snapshot.so \
@@ -575,16 +548,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_cpp_video.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_cpp_video_720p.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_cpp_video_720p.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_cpp_video_weixin.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_default_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_default_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_default_video_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_hdr_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_hdr_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_hfr_120.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_hfr_120_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_hfr_60.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_hfr_60_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_hfr_90.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_hfr_90_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_pano_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_postproc.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_preview.so \
@@ -597,13 +566,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_weixin_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_weixin_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_zsl_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_India_i_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_India_i_zsl_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_4k_preview_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_4k_video_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_bokeh_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_bokeh_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_common.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_cpp_hfr_120.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_cpp_hfr_60.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_cpp_hfr_90.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_cpp_liveshot.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_cpp_preview.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_cpp_snapshot.so \
@@ -614,16 +580,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_cpp_video.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_cpp_video_720p.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_cpp_video_720p.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_cpp_video_weixin.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_default_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_default_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_default_video_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_hdr_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_hdr_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_hfr_120.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_hfr_120_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_hfr_60.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_hfr_60_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_hfr_90.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_hfr_90_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_pano_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_pano_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_postproc.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_preview.so \
@@ -636,63 +598,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_weixin_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_weixin_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_zsl_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov12a10_ofilm_i_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov12a10_ofilm_i_zsl_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov24a1q_ofilm_i_a3_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov24a1q_ofilm_i_a3_zsl_preview.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov24a1q_ofilm_i_a3_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov24a1q_ofilm_i_a3_zsl_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov24a1q_ofilm_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov24a1q_ofilm_i_common.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov24a1q_ofilm_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov24a1q_ofilm_i_cpp_liveshot.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov24a1q_ofilm_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov24a1q_ofilm_i_cpp_preview.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov24a1q_ofilm_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov24a1q_ofilm_i_cpp_snapshot.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov24a1q_ofilm_i_cpp_snapshot_4m.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov24a1q_ofilm_i_cpp_snapshot_4m.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov24a1q_ofilm_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov24a1q_ofilm_i_cpp_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov24a1q_ofilm_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov24a1q_ofilm_i_postproc.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov24a1q_ofilm_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov24a1q_ofilm_i_preview.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_ov24a1q_ofilm_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_ov24a1q_ofilm_i_snapshot.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_4k_preview_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_4k_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_common.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_cpp_hfr_120.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_cpp_hfr_60.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_cpp_hfr_90.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_cpp_liveshot.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_cpp_preview.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_cpp_snapshot.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_cpp_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_cpp_video_4k.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_default_preview_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_default_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_default_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_default_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_default_video_4k.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_hfr_120.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_hfr_120_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_hfr_60.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_hfr_60_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_hfr_90.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_hfr_90_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_postproc.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_preview.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_snapshot.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_zsl_preview_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k2l5sx_sunny_ii_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k2l5sx_sunny_ii_zsl_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k3p8sp_ofilm_i_a3_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k3p8sp_ofilm_i_a3_zsl_preview.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k3p8sp_ofilm_i_a3_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k3p8sp_ofilm_i_a3_zsl_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k3p8sp_ofilm_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k3p8sp_ofilm_i_common.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k3p8sp_ofilm_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k3p8sp_ofilm_i_cpp_liveshot.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k3p8sp_ofilm_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k3p8sp_ofilm_i_cpp_preview.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k3p8sp_ofilm_i_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k3p8sp_ofilm_i_cpp_snapshot.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k3p8sp_ofilm_i_cpp_snapshot_4m.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k3p8sp_ofilm_i_cpp_snapshot_4m.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k3p8sp_ofilm_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k3p8sp_ofilm_i_cpp_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k3p8sp_ofilm_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k3p8sp_ofilm_i_postproc.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k3p8sp_ofilm_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k3p8sp_ofilm_i_preview.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k3p8sp_ofilm_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k3p8sp_ofilm_i_snapshot.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_4k_preview_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_4k_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_a3_weixin_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_a3_weixin_video.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_a3_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_a3_zsl_preview.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_a3_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_a3_zsl_video.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_common.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_hfr_120.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_hfr_60.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_hfr_90.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_liveshot.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_liveshot_flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_liveshot_flash.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_preview.so \
@@ -703,34 +611,19 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_snapshot_hdr.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_snapshot_mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_snapshot_mfnr.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_video_4k.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_video_flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_video_flash.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_cpp_video_weixin.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_default_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_default_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_default_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_default_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_default_video_4k.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_flash_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_flash_preview.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_flash_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_flash_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_flash_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_flash_snapshot.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_flash_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_flash_video.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_flash_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_flash_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_hdr_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_hdr_preview_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_hfr_120.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_hfr_120_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_hfr_60.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_hfr_60_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_hfr_90.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_hfr_90_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_postproc.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_preview.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_snapshot.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_snapshot_hdr.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_video_weixin.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_i_weixin_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_i_weixin_preview_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_4k_preview_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_4k_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_a3_weixin_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_a3_weixin_video.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_a3_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_a3_zsl_preview.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_a3_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_a3_zsl_video.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_common.so \
@@ -747,19 +640,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_cpp_snapshot_hdr.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_cpp_snapshot_mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_cpp_snapshot_mfnr.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_cpp_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_cpp_video_4k.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_cpp_video_flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_cpp_video_flash.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_cpp_video_weixin.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_default_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_default_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_default_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_default_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_default_video_4k.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_flash_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_flash_preview.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_flash_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_flash_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_flash_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_flash_snapshot.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_flash_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_flash_video.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_flash_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_flash_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_hdr_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_hdr_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_hfr_120.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_hfr_120_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_hfr_60.so \
@@ -772,12 +659,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_snapshot_hdr.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_video_weixin.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_ofilm_india_i_weixin_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_ofilm_india_i_weixin_preview_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_4k_preview_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_4k_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_a3_weixin_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_a3_weixin_video.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_a3_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_a3_zsl_preview.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_a3_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_a3_zsl_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_common.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_cpp_hfr_120.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_cpp_hfr_60.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_cpp_hfr_90.so \
@@ -791,34 +674,24 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_cpp_snapshot_hdr.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_cpp_snapshot_mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_cpp_snapshot_mfnr.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_cpp_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_cpp_video_4k.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_cpp_video_flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_cpp_video_flash.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_cpp_video_weixin.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_default_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_default_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_default_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_default_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_default_video_4k.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_flash_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_flash_preview.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_flash_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_flash_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_flash_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_flash_snapshot.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_flash_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_flash_video.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_flash_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_flash_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_hdr_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_hdr_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_hfr_120.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_hfr_120_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_hfr_60.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_hfr_60_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_hfr_90.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_hfr_90_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_postproc.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_preview.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_snapshot.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_snapshot_hdr.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_video_weixin.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_ii_weixin_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_ii_weixin_preview_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_4k_preview_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_4k_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_a3_weixin_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_a3_weixin_video.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_a3_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_a3_zsl_preview.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_a3_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_a3_zsl_video.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_common.so \
@@ -835,19 +708,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_cpp_snapshot_hdr.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_cpp_snapshot_mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_cpp_snapshot_mfnr.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_cpp_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_cpp_video_4k.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_cpp_video_flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_cpp_video_flash.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_cpp_video_weixin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_cpp_video_weixin.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_default_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_default_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_default_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_default_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_default_video_4k.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_flash_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_flash_preview.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_flash_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_flash_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_flash_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_flash_snapshot.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_flash_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_flash_video.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_flash_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_flash_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_hdr_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_hdr_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_hfr_120.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_hfr_120_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5k4h7_sunny_india_ii_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5k4h7_sunny_india_ii_hfr_60.so \
@@ -875,15 +742,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_cpp_snapshot_hdr.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_cpp_video.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_cpp_video_flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_cpp_video_flash.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_default_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_default_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_default_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_flash_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_flash_preview.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_flash_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_flash_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_flash_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_flash_snapshot.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_flash_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_flash_video.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_flash_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_flash_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_hdr_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_hdr_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_postproc.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_preview.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_ofilm_india_ii_snapshot.so \
@@ -904,15 +767,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_cpp_snapshot_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_cpp_snapshot_hdr.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_cpp_video.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_cpp_video_flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_cpp_video_flash.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_default_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_default_video.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_default_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_flash_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_flash_preview.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_flash_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_flash_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_flash_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_flash_snapshot.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_flash_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_flash_video.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_flash_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_flash_video_3a.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_hdr_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_hdr_preview_3a.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_postproc.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_preview.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_onc_s5kgd1sp_sunny_india_i_snapshot.so \
@@ -968,13 +827,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera2_stats_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_lib.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_arcsoftbokeh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_arcsoftbokeh_lib.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_atmel_at24c32e_eeprom.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_bokeh.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_csidtg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_csidtg.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_depth_map.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_depth_map.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_dummyalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dummyalgo.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_eebinparse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eebinparse.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_eeprom_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eeprom_util.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_eztune_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eztune_module.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_facedetection_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_facedetection_lib.so \
@@ -982,7 +838,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_faceproc2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc2.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_gb_lib.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib_faceproc_adspstub.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_isp_abf40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_abf40.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bcc40.so \
@@ -1026,9 +881,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_onc_ov02a10_sunny_ii_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onc_ov02a10_sunny_ii_eeprom.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_onc_ov12a10_ofilm_i.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onc_ov12a10_ofilm_i.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_onc_ov12a10_ofilm_i_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onc_ov12a10_ofilm_i_eeprom.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_onc_ov24a1q_ofilm_i.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onc_ov24a1q_ofilm_i.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_onc_s5k2l5sx_sunny_ii.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onc_s5k2l5sx_sunny_ii.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_onc_s5k3p8sp_ofilm_i.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onc_s5k3p8sp_ofilm_i.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_onc_s5k4h7_ofilm_i.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onc_s5k4h7_ofilm_i.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_onc_s5k4h7_ofilm_i_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onc_s5k4h7_ofilm_i_eeprom.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_onc_s5k4h7_sunny_ii.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onc_s5k4h7_sunny_ii.so \
@@ -1043,12 +895,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_s5k4h7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h7.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning_lookup.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
@@ -1114,11 +963,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libtinycompress_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress_vendor.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libvidhance_gyro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance_gyro.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/libvqzip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvqzip.so \
-    vendor/xiaomi/onclite/proprietary/vendor/lib/mibokeh_632_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/lib/mibokeh_632_opencl.bin \
     vendor/xiaomi/onclite/proprietary/vendor/lib/rfsa/adsp/dirac_resource.dar:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac_resource.dar \
     vendor/xiaomi/onclite/proprietary/vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so \
     vendor/xiaomi/onclite/proprietary/vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so \
